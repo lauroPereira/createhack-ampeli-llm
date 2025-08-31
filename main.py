@@ -33,7 +33,8 @@ llm = ChatOpenAI(
     openai_api_key=os.getenv("OPENAI_API_KEY")
 )
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# Static files - commented for Vercel deployment
+# app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 async def root():

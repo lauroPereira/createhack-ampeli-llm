@@ -26,6 +26,7 @@ MANIFEST
 .venv
 env/
 venv/
+venv/*
 ENV/
 env.bak/
 venv.bak/
@@ -55,3 +56,5 @@ Thumbs.db
 
 # App Runner config (use manual configuration instead)
 apprunner.yaml
+
+.vercel
