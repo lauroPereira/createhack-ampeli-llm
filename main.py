@@ -28,7 +28,7 @@ app = FastAPI(
 # Configuração do LangChain OpenAI
 llm = ChatOpenAI(
     model="gpt-3.5-turbo",
-    temperature=0.7, 
+    temperature=0.7,
     max_tokens=2000,
     openai_api_key=os.getenv("OPENAI_API_KEY")
 )
